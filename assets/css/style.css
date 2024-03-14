@@ -1,0 +1,89 @@
+:root {
+  --shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --light: #fff;
+  --default: #1a1a1a;
+  --checking: #008cba;
+  --error: #ed0800;
+  --success: #04aa6d;
+}
+body {
+  box-sizing: border-box;
+  background-image: url(/assets/img/nyc-night.jpg);
+  background-size: cover;
+}
+.wrapper {
+  height: 80vh;
+  margin: 4rem;
+  padding: 10vh 0;
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  box-shadow: var(--shadow);
+}
+.title-section {
+  text-align: center;
+  margin: 3rem 0;
+}
+p,
+i {
+  color: var(--light);
+}
+p,
+span,
+.form-control {
+  font-family: Nunito;
+}
+.form-control:focus,
+.form-control:hover,
+.form-control:active {
+  background-color: white;
+  border: none;
+  outline: none;
+}
+/* color check */
+#inputChecker.default {
+  background: var(--default);
+}
+#inputChecker.checking {
+  background-color: var(--checking);
+}
+#inputChecker.error {
+  background-color: var(--error);
+}
+#inputChecker.success {
+  background-color: var(--success);
+}
+
+.title-section p {
+  margin: 0;
+}
+.title-section p:nth-child(1) {
+  font-size: 6rem;
+  line-height: normal;
+}
+
+.title-section p:nth-child(3) {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.info-section {
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 4rem;
+}
+.info p {
+  margin: 0;
+}
+.info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.info div:nth-child(1) {
+  font-size: 2.2rem;
+}
+.info p:nth-child(1) {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
