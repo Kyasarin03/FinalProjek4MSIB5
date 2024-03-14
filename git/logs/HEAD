@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 a8df1db2f0dac5f81bc00401bd044be5c9d79c1f kiki <rizkysetiawann22@gmail.com> 1697196976 +0700	commit (initial): first commit
+a8df1db2f0dac5f81bc00401bd044be5c9d79c1f 0000000000000000000000000000000000000000 kiki <rizkysetiawann22@gmail.com> 1697196984 +0700	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 a8df1db2f0dac5f81bc00401bd044be5c9d79c1f kiki <rizkysetiawann22@gmail.com> 1697196984 +0700	Branch: renamed refs/heads/master to refs/heads/main
+a8df1db2f0dac5f81bc00401bd044be5c9d79c1f 664c40f70b89f45c285661ea6e869caea41c88f5 kiki <rizkysetiawann22@gmail.com> 1697985363 +0700	commit: update icon
+664c40f70b89f45c285661ea6e869caea41c88f5 56d32ace7d154de5b301fd5ea21e680081951034 kiki <rizkysetiawann22@gmail.com> 1698157103 +0700	commit: penambahan debounce
